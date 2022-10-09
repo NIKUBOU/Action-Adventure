@@ -189,7 +189,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Hurt_4
+      name: Mushrooms_Hurt_L1
       rect:
         serializedVersion: 2
         x: 192
@@ -210,7 +210,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Hurt_5
+      name: Mushrooms_Hurt_L2
       rect:
         serializedVersion: 2
         x: 208
@@ -231,7 +231,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Hurt_6
+      name: Mushrooms_Hurt_L3
       rect:
         serializedVersion: 2
         x: 224
@@ -252,7 +252,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Hurt_7
+      name: Mushrooms_Hurt_L4
       rect:
         serializedVersion: 2
         x: 240
@@ -273,7 +273,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Hurt_8
+      name: Mushrooms_Hurt_U1
       rect:
         serializedVersion: 2
         x: 192
@@ -294,7 +294,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Hurt_9
+      name: Mushrooms_Hurt_U2
       rect:
         serializedVersion: 2
         x: 208
@@ -315,7 +315,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Hurt_10
+      name: Mushrooms_Hurt_U3
       rect:
         serializedVersion: 2
         x: 224
@@ -336,7 +336,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Hurt_11
+      name: Mushrooms_Hurt_U4
       rect:
         serializedVersion: 2
         x: 240
@@ -357,7 +357,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Hurt_12
+      name: Mushrooms_Hurt_R1
       rect:
         serializedVersion: 2
         x: 192
@@ -378,7 +378,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Hurt_13
+      name: Mushrooms_Hurt_R2
       rect:
         serializedVersion: 2
         x: 208
@@ -399,7 +399,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Hurt_14
+      name: Mushrooms_Hurt_R3
       rect:
         serializedVersion: 2
         x: 224
@@ -420,7 +420,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Hurt_15
+      name: Mushrooms_Hurt_R4
       rect:
         serializedVersion: 2
         x: 240
@@ -453,20 +453,20 @@ TextureImporter:
     nameFileIdTable:
       Mushrooms_Hurt_D3: 737823330
       Mushrooms_Hurt_D2: 617933217
-      Mushrooms_Hurt_10: -1828305161
-      Mushrooms_Hurt_9: 460141552
-      Mushrooms_Hurt_12: 1798287874
-      Mushrooms_Hurt_14: -965169239
-      Mushrooms_Hurt_7: 1263697479
-      Mushrooms_Hurt_8: 624298826
-      Mushrooms_Hurt_15: -1687408509
+      Mushrooms_Hurt_R3: -965169239
+      Mushrooms_Hurt_L3: -1701034299
+      Mushrooms_Hurt_L2: -1567136934
+      Mushrooms_Hurt_R1: 1798287874
+      Mushrooms_Hurt_U3: -1828305161
+      Mushrooms_Hurt_U2: 460141552
       Mushrooms_Hurt_D1: 407206001
       Mushrooms_Hurt_D4: -314450276
-      Mushrooms_Hurt_5: -1567136934
-      Mushrooms_Hurt_4: 1433148841
-      Mushrooms_Hurt_13: 1866480547
-      Mushrooms_Hurt_11: -1453360729
-      Mushrooms_Hurt_6: -1701034299
+      Mushrooms_Hurt_R2: 1866480547
+      Mushrooms_Hurt_U4: -1453360729
+      Mushrooms_Hurt_L4: 1263697479
+      Mushrooms_Hurt_U1: 624298826
+      Mushrooms_Hurt_R4: -1687408509
+      Mushrooms_Hurt_L1: 1433148841
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

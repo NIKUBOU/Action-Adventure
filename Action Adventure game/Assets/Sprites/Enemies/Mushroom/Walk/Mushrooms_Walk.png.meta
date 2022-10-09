@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mushrooms_Walk_0
+      name: Mushrooms_Walk_D1
       rect:
         serializedVersion: 2
         x: 64
@@ -113,7 +113,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -126,7 +126,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Walk_1
+      name: Mushrooms_Walk_D2
       rect:
         serializedVersion: 2
         x: 80
@@ -134,7 +134,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,7 +147,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Walk_2
+      name: Mushrooms_Walk_D3
       rect:
         serializedVersion: 2
         x: 96
@@ -155,7 +155,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,7 +168,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Walk_3
+      name: Mushrooms_Walk_D4
       rect:
         serializedVersion: 2
         x: 112
@@ -176,7 +176,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,7 +189,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Walk_4
+      name: Mushrooms_Walk_L1
       rect:
         serializedVersion: 2
         x: 64
@@ -197,7 +197,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -210,7 +210,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Walk_5
+      name: Mushrooms_Walk_L2
       rect:
         serializedVersion: 2
         x: 80
@@ -218,7 +218,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -231,7 +231,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Walk_6
+      name: Mushrooms_Walk_L3
       rect:
         serializedVersion: 2
         x: 96
@@ -239,7 +239,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -252,7 +252,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Walk_7
+      name: Mushrooms_Walk_L4
       rect:
         serializedVersion: 2
         x: 112
@@ -260,7 +260,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -273,7 +273,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Walk_8
+      name: Mushrooms_Walk_U1
       rect:
         serializedVersion: 2
         x: 64
@@ -281,7 +281,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -294,7 +294,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Walk_9
+      name: Mushrooms_Walk_U2
       rect:
         serializedVersion: 2
         x: 80
@@ -302,7 +302,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -315,7 +315,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Walk_10
+      name: Mushrooms_Walk_U3
       rect:
         serializedVersion: 2
         x: 96
@@ -323,7 +323,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -336,7 +336,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Walk_11
+      name: Mushrooms_Walk_U4
       rect:
         serializedVersion: 2
         x: 112
@@ -344,7 +344,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -357,7 +357,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Walk_12
+      name: Mushrooms_Walk_R1
       rect:
         serializedVersion: 2
         x: 64
@@ -365,7 +365,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -378,7 +378,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Walk_13
+      name: Mushrooms_Walk_R2
       rect:
         serializedVersion: 2
         x: 80
@@ -386,7 +386,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -399,7 +399,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Walk_14
+      name: Mushrooms_Walk_R3
       rect:
         serializedVersion: 2
         x: 96
@@ -407,7 +407,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -420,7 +420,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mushrooms_Walk_15
+      name: Mushrooms_Walk_R4
       rect:
         serializedVersion: 2
         x: 112
@@ -428,7 +428,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -451,22 +451,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mushrooms_Walk_2: -1454735263
-      Mushrooms_Walk_9: 553395174
-      Mushrooms_Walk_3: 957767646
-      Mushrooms_Walk_13: 1489437798
-      Mushrooms_Walk_1: 33035847
-      Mushrooms_Walk_4: 1779646421
-      Mushrooms_Walk_15: 466043487
-      Mushrooms_Walk_6: 94995910
-      Mushrooms_Walk_5: -37584331
-      Mushrooms_Walk_14: -1778216865
-      Mushrooms_Walk_10: 1147381309
-      Mushrooms_Walk_0: 29635233
-      Mushrooms_Walk_11: 1569388637
-      Mushrooms_Walk_7: -506605038
-      Mushrooms_Walk_8: 1555349696
-      Mushrooms_Walk_12: -1028147299
+      Mushrooms_Walk_R4: 466043487
+      Mushrooms_Walk_D2: 33035847
+      Mushrooms_Walk_L1: 1779646421
+      Mushrooms_Walk_L3: 94995910
+      Mushrooms_Walk_U3: 1147381309
+      Mushrooms_Walk_U4: 1569388637
+      Mushrooms_Walk_R3: -1778216865
+      Mushrooms_Walk_U2: 553395174
+      Mushrooms_Walk_L4: -506605038
+      Mushrooms_Walk_U1: 1555349696
+      Mushrooms_Walk_R2: 1489437798
+      Mushrooms_Walk_R1: -1028147299
+      Mushrooms_Walk_D3: -1454735263
+      Mushrooms_Walk_D4: 957767646
+      Mushrooms_Walk_D1: 29635233
+      Mushrooms_Walk_L2: -37584331
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
