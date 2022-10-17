@@ -1,9 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class KeyHolder : MonoBehaviour
 {
+    public event EventHandler onKeysChanged;
     private List<Key.KeyType> keyList;
 
     private void Awake()
@@ -11,14 +13,21 @@ public class KeyHolder : MonoBehaviour
         keyList = new List<Key.KeyType>();
     }
 
+    public List<Key.KeyType> GetKeyList()
+    {
+        return keyList;
+    }
+
     public void AddKey(Key.KeyType keyType)
     {
         keyList.Add(keyType);
+        onKeysChanged?.Invoke(this, EventArgs.Empty);
     }
 
     public void RemoveKey(Key.KeyType keyType)
     {
         keyList.Remove(keyType);
+        onKeysChanged?.Invoke(this, EventArgs.Empty);
     }
 
     public bool ContainKey(Key.KeyType keyType)
