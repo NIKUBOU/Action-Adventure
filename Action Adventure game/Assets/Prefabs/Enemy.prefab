@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4175096621682788005}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -145,7 +145,7 @@ Animator:
   m_GameObject: {fileID: 8732349290557291963}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2b49fa738c065a140969338f9ece8a4a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5a916d524d77f0f4181ee73ca118b8c4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -169,3 +169,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 3
   baseAttack: 1
+  moveSpeed: 1.2
+  target: {fileID: 0}
+  chaseRadius: 4
+  attackRadius: 1
+  homePosition: {fileID: 0}
