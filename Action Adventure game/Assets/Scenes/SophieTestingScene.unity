@@ -476,6 +476,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4175096621682788005, guid: f2beb87563fda5f418ca9177f430bfcc, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1828800729522095755}
+    - target: {fileID: 4175096621682788005, guid: f2beb87563fda5f418ca9177f430bfcc, type: 3}
+      propertyPath: moveSpeed
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4175096621682788005, guid: f2beb87563fda5f418ca9177f430bfcc, type: 3}
+      propertyPath: chaseRadius
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4175096621682788005, guid: f2beb87563fda5f418ca9177f430bfcc, type: 3}
+      propertyPath: attackRadius
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8732349290557291953, guid: f2beb87563fda5f418ca9177f430bfcc, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 5a916d524d77f0f4181ee73ca118b8c4, type: 2}
     - target: {fileID: 8732349290557291963, guid: f2beb87563fda5f418ca9177f430bfcc, type: 3}
       propertyPath: m_Name
       value: Creature
