@@ -201,6 +201,7 @@ GameObject:
   - component: {fileID: 5497325815248820701}
   - component: {fileID: 5497325815248820688}
   - component: {fileID: 1828800729522095758}
+  - component: {fileID: 1828800729522095762}
   m_Layer: 0
   m_Name: George
   m_TagString: Untagged
@@ -313,7 +314,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.000000014901161, y: -0.37409836}
+  m_Offset: {x: -0.0023364425, y: -0.37409836}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -324,7 +325,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.37283513, y: 0.25180325}
+  m_Size: {x: 0.37750804, y: 0.25180328}
   m_EdgeRadius: 0
 --- !u!114 &5497325815248820701
 MonoBehaviour:
@@ -372,6 +373,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f954df9633cb7284a8f7076ea6e3db52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1828800729522095762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5497325815248820698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d523814ce0cb2f4429f93969b33cf68a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thrust: 2
 --- !u!1 &8061587086540041171
 GameObject:
   m_ObjectHideFlags: 0
