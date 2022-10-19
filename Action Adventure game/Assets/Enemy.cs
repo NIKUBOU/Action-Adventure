@@ -2,22 +2,37 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum EnemyState
+{
+    idle,
+    walk,
+    attack,
+    stagger //hurt
+}
+
+
 public class Enemy : MonoBehaviour
 {
-
-    public int health;
+    public EnemyState currentState;
+    public FloatValue maxHealth;
+    public float health;
     public int baseAttack;
     public float moveSpeed;
 
-    // Start is called before the first frame update
-    void Start()
+    public float damage;
+
+    private void Awake()
     {
-        
+        health = maxHealth.initialValue;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        health -= damage;
+        if(health <= 0)
+        {
+            this.gameObject.SetActive(false);
+        }
     }
+
 }

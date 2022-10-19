@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D myRigidbody;
     private Vector3 changePosition;
     private Animator animator;
+    public float health;
+    public float damage;
 
     // Start is called before the first frame update
     void Start()
@@ -77,5 +79,14 @@ public class PlayerMovement : MonoBehaviour
     void MoveCharacter()
     {
         myRigidbody.MovePosition(transform.position + changePosition.normalized * moveSpeed * Time.fixedDeltaTime);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        health -= damage;
+        if (health <= 0)
+        {
+            this.gameObject.SetActive(false);
+        }
     }
 }

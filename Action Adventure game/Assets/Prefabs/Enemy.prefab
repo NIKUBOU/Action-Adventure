@@ -167,6 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66aaf4d738bd3b54d888315a1edb7db2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentState: 0
   health: 3
   baseAttack: 1
   moveSpeed: 1.2
@@ -174,3 +175,4 @@ MonoBehaviour:
   chaseRadius: 4
   attackRadius: 1
   homePosition: {fileID: 0}
+  anim: {fileID: 0}

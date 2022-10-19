@@ -6,13 +6,14 @@ public class Knockback : MonoBehaviour
 {
     public float thrust;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("Enemy"))
         {
-            Rigidbody2D enemy = collision.GetComponent<Rigidbody2D>();
+            Rigidbody2D enemy = other.GetComponent<Rigidbody2D>();
             if (enemy != null)
             {
+                enemy.GetComponent<Enemy>().currentState = EnemyState.stagger;
                 StartCoroutine(KnockCoroutine(enemy));
             }
         }
@@ -27,6 +28,7 @@ public class Knockback : MonoBehaviour
         yield return new WaitForSeconds(.3f);
 
         enemy.velocity = new Vector2();
+        enemy.GetComponent<Enemy>().currentState = EnemyState.idle;
     }
 }
 
