@@ -21,6 +21,8 @@ public class Enemy : MonoBehaviour
 
     public float damage;
 
+    public GameObject keyDrop;
+
     private void Awake()
     {
         health = maxHealth.initialValue;
@@ -31,8 +33,17 @@ public class Enemy : MonoBehaviour
         health -= damage;
         if(health <= 0)
         {
+            ItemDrop();
             this.gameObject.SetActive(false);
         }
+    }
+
+    private void ItemDrop()
+    {
+        
+        GameObject key = Instantiate(keyDrop, transform.position, Quaternion.identity);
+        key.SetActive(true);
+        
     }
 
 }
