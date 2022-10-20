@@ -19,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
     public float health;
     public float damage;
 
+    public GameObject corpseDrop;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -86,7 +88,16 @@ public class PlayerMovement : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
+            CorpseDrop();
             this.gameObject.SetActive(false);
         }
+    }
+
+    private void CorpseDrop()
+    {
+
+        GameObject corpse = Instantiate(corpseDrop, transform.position, Quaternion.identity);
+        corpse.SetActive(true);
+
     }
 }
