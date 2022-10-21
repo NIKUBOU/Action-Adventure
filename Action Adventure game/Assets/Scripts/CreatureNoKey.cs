@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Creature : Enemy
+public class CreatureNoKey : Enemy
 {
     private Rigidbody2D rb;
     public Transform target;
@@ -10,10 +10,6 @@ public class Creature : Enemy
     public float attackRadius;
     public Transform homePosition;
     public Animator anim;
-
-    
-
-    public GameObject keyDrop;
 
 
     // Start is called before the first frame update
@@ -46,13 +42,13 @@ public class Creature : Enemy
             {
                 anim.SetBool("isWalking", false);
             }
-            
+
         }
     }
 
     private void ChangeState(EnemyState newState)
     {
-        if (currentState !=  newState)
+        if (currentState != newState)
         {
             currentState = newState;
         }
@@ -63,16 +59,7 @@ public class Creature : Enemy
         health -= damage;
         if (health <= 0)
         {
-            ItemDrop();
             this.gameObject.SetActive(false);
         }
-    }
-
-    private void ItemDrop()
-    {
-
-        GameObject key = Instantiate(keyDrop, transform.position, Quaternion.identity);
-        key.SetActive(true);
-
     }
 }

@@ -3042,7 +3042,7 @@ GameObject:
   - component: {fileID: 7715010378804748996}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3735,7 +3735,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 2
-      m_TileSpriteIndex: 2
+      m_TileSpriteIndex: 6
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3905,7 +3905,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 5
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4234,18 +4234,18 @@ Tilemap:
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 1355883867, guid: 76362875b3ebf434f9df9c2cfc82d2b0, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 614548619, guid: 76362875b3ebf434f9df9c2cfc82d2b0, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: -1130658461, guid: 76362875b3ebf434f9df9c2cfc82d2b0, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 1918270221, guid: 76362875b3ebf434f9df9c2cfc82d2b0, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 1355883867, guid: 76362875b3ebf434f9df9c2cfc82d2b0, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 614548619, guid: 76362875b3ebf434f9df9c2cfc82d2b0, type: 3}
   - m_RefCount: 13
     m_Data: {fileID: -329927561, guid: 76362875b3ebf434f9df9c2cfc82d2b0, type: 3}
   - m_RefCount: 1
@@ -4447,18 +4447,6 @@ CompositeCollider2D:
       - X: -50000000
         Y: -50000000
       - X: -50000000
-        Y: -100
-      - X: -49999959
-        Y: -100
-      - X: -49999900
-        Y: -41
-      - X: -49999900
-        Y: 50000041
-      - X: -49999959
-        Y: 50000100
-      - X: -50000000
-        Y: 50000100
-      - X: -50000000
         Y: 100000000
       - X: -10000000
         Y: 100000000
@@ -4466,18 +4454,6 @@ CompositeCollider2D:
         Y: 130000000
       - X: -60000000
         Y: 130000000
-      - X: -60000000
-        Y: 50000100
-      - X: -60000041
-        Y: 50000100
-      - X: -60000100
-        Y: 50000041
-      - X: -60000100
-        Y: -41
-      - X: -60000041
-        Y: -100
-      - X: -60000000
-        Y: -100
       - X: -60000000
         Y: -60000000
       - X: -10000000

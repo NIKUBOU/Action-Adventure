@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum PlayerState
 {
@@ -34,6 +35,11 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("attack") && currentState != PlayerState.attack)
         {
             StartCoroutine(AttackCo());
+        }
+
+        if(Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            CorpseDrop();
         }
     }
 
@@ -85,11 +91,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        health -= damage;
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            health -= damage;
+        }
+        
         if (health <= 0)
         {
             CorpseDrop();
             this.gameObject.SetActive(false);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 
